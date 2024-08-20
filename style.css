@@ -1,0 +1,16 @@
+HTML, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+
+h1, h3, input, button, p {
+    margin: 0;
+}

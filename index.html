@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ikälaskuri</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body>
+    <main>
+      <h1>Ikälaskuri</h1>
+      <h3>Syötä henkilötunnuksesi ja lasken ikäsi!</h3>
+      <div>
+        <form onsubmit="return onSubmit()">
+          <input oninput="inputChange(this.value)" id="input" placeholder="123456-1234" type="text">
+          <button type="submit" disabled id="submit" onclick="countAge()">Laske ikä</button>  
+        </form>
+      </div>
+      <p><span id="age"></span>&nbsp;</p>
+    </main>
+	<script src="index.js"></script>
+  </body>
+</html>
